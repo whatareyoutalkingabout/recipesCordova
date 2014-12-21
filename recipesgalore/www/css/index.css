@@ -1,0 +1,38 @@
+body {
+	padding: 0px;
+	margin: 0px;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+
+.full-container {
+	width: 100%;
+}
+
+.amount-width {
+	width:25%;
+}
+
+.ingredient-width {
+	width: 40%;
+}
+
+.mainBody {
+	padding:0px;
+	margin: 0px;
+	height:100%;
+}
+/*.disp-image {
+	margin: 0 auto;
+	padding: 0px;
+	height: 80%;
+	z-index: -1;
+}*/
+.mainImage {
+	width:100%;
+	height:100%;
+	background-position: center;
+	    background-repeat: no-repeat;
+}

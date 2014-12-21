@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+		
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		
+		<script src="lib/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery.mobile.router.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/jquery.mobile-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		
+		<script>
+		// $(document).on("swiperight", function(event, ui){
+// 			$("#myPanel").panel('open');
+// 		});
+		</script>
+		
+        <title>Hello World</title>
+    </head>
+    <body>
+        
+		<!-- MAIN PAGE -->
+		<div data-role="page" id="home">
+			<!-- <div data-role="panel" id="mypanel">
+				<a href="#home" data-rel="close">Close panel</a>
+				testing
+			</div> -->
+			
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>Recipes Galore!</h1>
+			</div>	
+			<div class="ui-content" role="main">
+				<div class="mainBody"><img src="img/mainImage.png" class="mainImage"/></div>		
+			</div>
+			<footer data-role="footer" data-position="fixed">  
+				<div data-role="navbar">
+				        <ul>
+				            <!-- <li><a href="#myPanel" data-role="button" data-icon="back">Recipe type List</a></li> -->
+				            <li><a href="#drink" data-role="button" data-icon="back" data-transition="slide" data-direction="reverse">Cocktail List</a></li>
+				            <li><a href="#food" data-role="button" data-icon="forward" data-transition="slide">Food List</a></li>
+				        </ul>
+				</div><!-- /navbar -->
+				<!-- <h2>&copy; a work in progress by greeGree</h2>   -->
+			</footer>	
+		</div>
+		
+		
+		<!-- DRINK PAGE -->
+		<div data-role="page" id="drink">
+			<!-- <div data-role="panel" id="mypanel">
+				<a href="#home" data-rel="close">Close panel</a>
+				testing
+			</div> -->
+			
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>Recipes Galore!</h1>
+			</div>
+			<!-- <a href="#mypanel" data-role="button" data-inline="true" data-icon="bars" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-icon-left ui-btn-hover-c"><span class="ui-btn-inner"><span class="ui-btn-text">Default panel</span><span class="ui-icon ui-icon-bars ui-icon-shadow">&nbsp;</span></span></a> -->
+			<!-- <div data-role="navbar">  
+			        <ul> 
+						<li><a href="#myPanel" data-transition="slide" data-theme="b">Side Panel</a></li> 
+			            <li><a href="#home" class="ui-btn-active ui-state-persist" data-direction="reverse" data-transition="slide" data-theme="b">Cocktail list</a></li>  
+			            <li><a href="#food" data-transition="slide" data-theme="b">Food list</a></li>
+			        </ul>  
+			</div> -->
+			<!-- <div data-role="panel" id="myPanel" data-theme="b" data-display="overlay">
+				<ul>
+					<li><a href="" data-role="button" data-rel="close">Close Me</a></li>
+					<li><a href="#food"  data-role="button" data-transition="slide" data-theme="b">Food list</a></li>
+					<li><a href="#home"  data-role="button" data-transition="slide" data-theme="b">Cocktail list</a></li>
+				</ul>
+			</div> -->		
+			<div class="ui-content" role="main">
+				<p><h1>Cocktails</h1></p>
+				<ul id="recipe-list" data-role="listview" class="ui-listview-inset" data-insert="true" data-filter="true">
+					<!-- <li><a href="#post?0" data-transition="slide">Next</a></li>
+					<li><a href="#post?1">Nothing</a></li> -->
+				</ul>		
+			</div>
+			<footer data-role="footer" data-position="fixed">  
+				<div data-role="navbar">
+				        <ul>
+				            <!-- <li><a href="#myPanel" data-role="button" data-icon="back">Recipe type List</a></li> -->
+				            <li><a href="#drink" data-role="button" data-icon="back" data-transition="slide" data-direction="reverse">Cocktail List</a></li>
+				            <li><a href="#home" data-role="button" data-icon="home" data-transition="slide">Main Page</a></li>
+				            <li><a href="#food" data-role="button" data-icon="forward" data-transition="slide">Food List</a></li>
+				        </ul>
+				</div><!-- /navbar -->
+				<!-- <h2>&copy; a work in progress by greeGree</h2>   -->
+			</footer>	
+		</div>
+		
+		<script id="recipe-list-template" type="text/x-handlebars-template">
+			<!-- <li data-role="list-divider">Drinks</li> -->
+			{{#.}}<li class="ui-li-desc"><a href="#post?{{@index}}" data-transition="slide">{{#if imagename}}<img src="img/drink_thumb{{imagename}}.jpg" class="ui-li-has-thumb"/>{{/if}}{{#unless imagename}}<img src="img/drink_thumb.jpg" class="ui-li-has-thumb"/>{{/unless}}{{name}}</a></li>{{/.}}
+		</script>
+		
+		<!-- FOOD -->
+		<div data-role="page" id="food">
+			<!-- <div data-role="panel" id="mypanel">
+				<a href="#home" data-rel="close">Close panel</a>
+				testing
+			</div> -->
+			
+			<div data-role="header" data-position="fixed" data-theme="b">
+				<h1>Recipes Galore!</h1>
+			</div>
+			<!-- <a href="#mypanel" data-role="button" data-inline="true" data-icon="bars" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-icon-left ui-btn-hover-c"><span class="ui-btn-inner"><span class="ui-btn-text">Default panel</span><span class="ui-icon ui-icon-bars ui-icon-shadow">&nbsp;</span></span></a> -->
+			<!-- <div data-role="navbar">  
+			        <ul>  
+			            <li><a href="#home" data-direction="reverse" data-transition="slide" data-theme="b">Cocktail list</a></li>  
+			            <li><a href="#food" class="ui-btn-active ui-state-persist" data-direction="reverse" data-transition="slide" data-theme="b">Food list</a></li>
+			        </ul>  
+			</div>	 -->
+			<!-- <div data-role="panel" id="myPanel" data-theme="b" data-display="overlay">
+				<ul>
+					<li><a href="" data-role="button" data-rel="close">Close Me</a></li>
+					<li><a href="#food"  data-role="button" data-transition="slide" data-theme="b">Food list</a></li>
+					<li><a href="#home"  data-role="button" data-transition="slide" data-theme="b">Cocktail list</a></li>
+				</ul>
+			</div> -->	
+			<div class="ui-content" role="main">
+				<p><h1>Food</h1></p>
+				<ul id="food-list" data-role="listview" class="ui-listview-inset" data-insert="true" data-filter="true">
+					<!-- <li><a href="#post?0" data-transition="slide">Next</a></li>
+					<li><a href="#post?1">Nothing</a></li> -->
+				</ul>		
+			</div>
+			<footer data-role="footer" data-position="fixed">  
+				<div data-role="navbar">
+				        <ul>
+				            <!-- <li><a href="#myPanel" data-role="button" data-icon="back">Recipe type List</a></li> -->
+				            <li><a href="#drink" data-role="button" data-icon="back" data-transition="slide" data-direction="reverse">Cocktail List</a></li>
+				            <li><a href="#home" data-role="button" data-icon="home" data-transition="slide">Main Page</a></li>
+				            <li><a href="#food" data-role="button" data-icon="forward" data-transition="slide">Food List</a></li>
+				        </ul>
+				</div><!-- /navbar -->
+				<!-- <h2>&copy; a work in progress by greeGree</h2>  -->
+			</footer>	
+		</div>
+		
+		<script id="food-list-template" type="text/x-handlebars-template">
+			<!-- <li data-role="list-divider">Drinks</li> -->
+			{{#.}}<li class="ui-li-desc"><a href="#postFood?{{@index}}" data-transition="slide">{{name}}</a></li>{{/.}}
+		</script>		
+		
+		<!-- PANEL -->
+		<!-- <div data-role="panel" id="myPanel" data-display="reveal">
+			<p>This rocks</p>
+		</div> -->	
+		
+		<!-- NEXT PAGE -->
+		<div data-role="page" id="post">
+			<div data-role="header" data-theme="b">
+				<a href="#home" data-direction="reverse" data-transition="slide" data-icon="back">Back</a>
+				<h1>Recipes Galore!</h1>
+			</div>
+			<div class="ui-content" role="main" id="post-content">
+				<!-- TEMPLATE -->
+			</div>	
+			<!-- <footer data-role="footer" data-position="fixed"> 
+				<h2>&copy; a work in progress by greeGree</h2> 
+			</footer> -->	
+		</div>
+		
+		<script id="post-template" type="text/x-handlebars-template">
+			<div class="bg-image">
+				{{#if imagename}}
+					<img src="img/drink_{{imagename}}.jpg" class="ui-li-has-thumb"/>
+					{{/if}}
+				{{#unless imagename}}
+					<img src="img/drink_350.jpg" class="ui-li-has-thumb"/>
+				{{/unless}}
+				
+				<!-- <img src="img/drink_350.jpg" id="disp_image" alt="Drink"> -->
+			</div>
+			<h2>{{name}}</h2>
+			{{#if garnish}}
+			<p><b>Garnish:</b> {{{garnish}}}</p>
+			{{/if}}
+			{{#if glass}}
+				<p><b>Glass type:</b> {{glass}}</p>
+			{{/if}}
+			<p><b>Ingredients:</b></p>
+			<ul>
+				{{#each this.ingredient}}
+			  		<p><li>{{this}}</li></p>
+				{{/each}} <br/>
+			</ul>	
+			<p><b>Notes:</b></p>
+			<ol>
+			{{#each this.note}}
+			  <p> <li>{{this}}</li></p>
+			 {{/each}} <br/>
+		 </ol>
+		</script>
+		
+		<!-- POST FOOD -->
+		<div data-role="page" id="postFood">
+			<div data-role="header" data-theme="b">
+				<a href="#food" data-direction="reverse" data-transition="slide" data-icon="back">Back</a>
+				<h1>Recipes Galore!</h1>
+			</div>
+			<div class="ui-content" role="main" id="post-food-content">
+				<!-- TEMPLATE -->
+			</div>	
+			<footer data-role="footer" data-position="fixed">  
+			</footer>	
+		</div>
+		
+		<script id="post-food-template" type="text/x-handlebars-template">
+			<h2>{{name}}</h2>
+			{{#if garnish}}
+			<p><b>Garnish:</b> {{{garnish}}}</p>
+			{{/if}}
+			{{#if glass}}
+				<p><b>Glass type:</b> {{glass}}</p>
+			{{/if}}
+			<p><b>Ingredients:</b></p>
+			<ul>
+				{{#each this.ingredient}}
+			  		<p><li>{{this}}</li></p>
+				{{/each}} <br/>
+			</ul>	
+			<p><b>Notes:</b></p>
+			<ol>
+			{{#each this.note}}
+			  <p> <li>{{this}}</li></p>
+			 {{/each}} <br/>
+		 </ol>
+		</script>
+		
+		
+        <script type="text/javascript" src="cordova.js"></script>
+		<script src="lib/fastclick.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/handlebars-v1.3.0.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+            recipeGalore.app.initialize();
+			
+			// function onBodyLoad() {
+			// 	document.addEventListener("devicedy", onDeviceReady, false);
+			// }
+			// 
+			// function onDeviceReady() {
+			// 	// checkDB();
+			// 	dropDB();
+			// }
+        </script>
+    </body>
+</html>

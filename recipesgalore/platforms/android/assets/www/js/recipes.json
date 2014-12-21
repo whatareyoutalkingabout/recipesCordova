@@ -1,0 +1,912 @@
+{"name": "Gin and Tonic", "amount": ["1", "5"], "amountType": ["Parts", "Parts"], "ingredient": ["1 pt Gin", "5 pt Tonic"],"note": ["Add to glass with ice and enjoy"],"type": "cocktail"}
+
+{
+    "_id": {
+        "$oid": "52627e65e4b061bf85601362"
+    },
+    "name": "Fried Peanut Butter and Bananna Sandwich",
+    "amount": [
+        "1",
+        "",
+        "2"
+    ],
+    "amountType": [
+        "",
+        "",
+        "Pieces"
+    ],
+    "ingredient": [
+        "1 Bananna",
+        "Peanut Butter",
+        "Bread"
+    ],
+    "note": [
+        "Make sandwich and fry"
+    ],
+    "type": "food"
+}
+
+
+{
+    "name": "20th Century",
+    "amount": [
+        "1 1/2",
+        "3/4",
+        "3/4",
+        "3/4"
+    ],
+    "amountType": [
+        "Oz.",
+        "Oz.",
+        "Oz.",
+        "Oz."
+    ],
+    "ingredient": [
+        "Gin",
+        "Lillet",
+        "Lime juice",
+        "Creme du cacao"
+    ],
+    "note": [
+        "Add ingredients to an iced shaker.",
+        "Shake!",
+        "Pour into a cocktail glass.",
+        "Garnish with a lemon twist."
+    ],
+    "type": "cocktail"
+}
+
+{
+    "name": "Vesper",
+    "amount": [
+        "2",
+        "1",
+        "1/2"
+    ],
+    "amountType": [
+        "Oz.",
+        "Oz.",
+        "Oz."
+    ],
+    "glass": "cocktail",
+    "type": "cocktail",
+    "ingredient": [
+        "Gin",
+        "Vodka",
+        "Lillet Blonde"
+    ],
+    "garnish": "Lemon twist",
+    "note": [
+        "Add ingredients to an iced shaker.",
+        "Shake and strain into a chilled cocktail glass.",
+        "garnish with a twist"
+    ]
+}
+
+{
+    "name": "Bacardi",
+    "nameid": "Bacardi",
+    "glass": "martini",
+    "type": "cocktail",
+    "ingredient": [
+        "4.5 pt. White rum",
+        "2 pt. Lime juice",
+        "1 pt. Grenadine"
+    ],
+    "note": [
+        "Shake with ice cubes. Strain into chilled cocktail glass."
+    ]
+}
+
+{
+    "name": "Rose",
+    "amount": [
+        "2",
+        "4",
+        "3"
+    ],
+    "amountType": [
+        "Part",
+        "Part",
+        "Dashes"
+    ],
+    "glass": "martini",
+    "type": "cocktail",
+    "ingredient": [
+        "Kirsch",
+        "Vermouth",
+        "Strawberry syrup"
+    ],
+    "note": [
+        "Stir all ingredient with ice and strain into a cocktail glass."
+    ]
+}
+
+{
+    "name": "Tuxedo",
+    "nameid": "Tuxedo",
+    "glass": "martini",
+    "type": "cocktail",
+    "ingredient": [
+        "3 pt. Gin",
+        "3 pt. Vermouth",
+        "1/2 bar spoon Maraschino",
+        "1/4 bar spoon Absinthe",
+        "3 dashes Orange Bitters"
+    ],
+    "garnish": "Cherry and lemon twist",
+    "note": [
+        "Stir all ingredient with ice and strain into cocktail glass."
+    ]
+}
+
+{
+    "name": "Old Fashioned",
+    "amount": [
+        "4 1/2",
+        "2",
+        "1",
+        "3"
+    ],
+    "amountType": [
+        "Part",
+        "Dashes",
+        "tsp",
+        "Dashes"
+    ],
+    "glass": "old-fashioned",
+    "type": "cocktail",
+    "ingredient": [
+        "Whiskey",
+        "Angostura Bitters",
+        "sugar",
+        "water"
+    ],
+    "garnish": "Orange slice and cherry",
+    "note": [
+        "Place sugar cube in old-fashioned glass and saturate with bitters",
+        "add a dash of plain water",
+        "Muddle until dissolve.",
+        "Fill the glass with ice cubes and add whisky."
+    ]
+}
+
+{
+    "name": "Mojito",
+    "amount": [
+        "4",
+        "3",
+        "6",
+        "2",
+        ""
+    ],
+    "amountType": [
+        "Parts",
+        "Parts",
+        "Sprigs",
+        "tsp",
+        ""
+    ],
+    "glass": "collins",
+    "type": "cocktail",
+    "ingredient": [
+        "White rum",
+        "Lime juice",
+        "Mint",
+        "white sugar",
+        "Soda water"
+    ],
+    "garnish": "Mint leaves and lemon slice",
+    "note": [
+        "Muddle mint springs with sugar and lime juice.",
+        "Add splash of soda water",
+        "Fill glass with cracked ice.",
+        "Pour rum and top with soda water."
+    ]
+}
+
+{
+    "_id": {
+        "$oid": "5262f870e4b0d8dafb89a499"
+    },
+    "name": "Horse's Neck",
+    "amount": [
+        "4",
+        "12",
+        "1"
+    ],
+    "amountType": [
+        "Parts",
+        "Parts",
+        "Dash"
+    ],
+    "glass": "highball",
+    "type": "cocktail",
+    "ingredient": [
+        "Cognac",
+        "Ginger Ale",
+        "Angostura bitters (optional)"
+    ],
+    "garnish": "Lemon twist",
+    "note": [
+        "Build into highball glass with ice cubes.",
+        "Stir gently.",
+        " If required, add dashes of Angostura bitters."
+    ]
+}
+
+{
+    "_id": {
+        "$oid": "526d8bdde4b0e25391f0464f"
+    },
+    "name": "Cream of Pablano soup",
+    "amount": [
+        "1",
+        "1",
+        "3",
+        "2",
+        "1/2",
+        "4",
+        "1",
+        "8",
+        "",
+        "8",
+        "1"
+    ],
+    "amountType": [
+        "Tbl",
+        "Tbl",
+        "",
+        "",
+        "",
+        "Cup",
+        "",
+        "Oz.",
+        "",
+        "",
+        "Cup"
+    ],
+    "ingredient": [
+        "olive oil",
+        "butter",
+        "diced poblano peppers, seeds and membranes removed",
+        "medium onions, diced",
+        "carrot, diced",
+        "low sodium vegetable stock",
+        "large white potato, diced",
+        "Mexican crema fresca (substitute sour cream, yogurt, or creme fraiche if you prefer)",
+        "chopped cilantro for garnish",
+        "large tortilla chips",
+        "Chihuahua cheese, shredded (or you can use cheddar or monterey jack if you prefer)"
+    ],
+    "note": [
+        "In a soup pot or stock pot heat the oil and butter until the butter starts to sizzle.",
+        "Add the peppers, onions, and carrot and sautee 5 minutes, stirring to coat the vegetables with the oil and butter.",
+        "Add the potatoes and stock. Bring to a boil, then reduce to a simmer. Cover and cook for 30 minutes until potatoes and carrots are soft.",
+        "Using an immersion blender, blend soup thoroughly until uniformly smooth.",
+        "Serve in oven-proof bowls. Place two tortilla chips on top of each bowl, sprinkle 1/4 of the cheese on top of the bowl and set under a broiler until the cheese is melted and golden brown.",
+        "If you like it spicier, don't get rid of all the seeds and membranes of the poblanos and make the soup a day or two ahead of time. It just gets spicier and more complex as it sits in the refrigerator."
+    ],
+    "type": "food"
+}
+
+{
+    "_id": {
+        "$oid": "52711b2ee4b068bd7185e3c2"
+    },
+    "name": "Dutch Baby",
+    "amount": [
+        "3",
+        "2/3",
+        "2/3",
+        "1/4",
+        "1/8",
+        "3"
+    ],
+    "amountType": [
+        "",
+        "Cup",
+        "Cup",
+        "tsp",
+        "tsp",
+        "Tbl"
+    ],
+    "ingredient": [
+        "Eggs (warm in hot water)",
+        "Milk (room temp)",
+        "White Flour",
+        "Vanilla",
+        "Salt",
+        "butter"
+    ],
+    "note": [
+        "Pre heat oven to 450F with rack in middle possition.",
+        "Place cast-iron pan in oven for 5 minute to warm.",
+        "Set butter aside and place remaining ingredients into blender.",
+        "Remove pan from oven and melt butter in pan.",
+        "Add remaining ingredients into pan.",
+        "Place pan in oven and bake for 18-25 minutes."
+    ],
+    "type": "food"
+}
+
+{
+    "name": "Strawberry Mint Sangria",
+    "amount": [
+        "2",
+        "1/2",
+        "1 1/2",
+        "1",
+        "12"
+    ],
+    "amountType": [
+        "Cup",
+        "Cup",
+        "Oz.",
+        "Bottle",
+        "Oz."
+    ],
+    "ingredient": [
+        "Sliced strawberries",
+        "fresh mint leaves",
+        "brandy",
+        "dry wine(assuming red)",
+        "club soda"
+    ],
+    "note": [
+        "In a large glass pitch combine strawberries, mint leaves, brandy and wine. Place into refrigerator to chill",
+        "Before serving add club soda.",
+        "Serve with a sprig of mint."
+    ],
+    "garnish": "mint sprig",
+    "type": "cocktail",
+    "glass": "Wine Glass",
+    "_id": {
+        "$oid": "52892d1e81051a6e0e000001"
+    }
+}
+
+{
+    "name": "Whisky Sour",
+    "amount": [
+        "2",
+        "3",
+        "2",
+        "1"
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "oz.",
+        "oz."
+    ],
+    "ingredient": [
+        "2 oz. Blue Curacao",
+        "3 oz. Jagermeister",
+        "2 oz. Orange Juice",
+        "1 oz. Grenadine"
+    ],
+    "note": [
+        "In a chilled martini glass pour the grenadine",
+        "Then gently pour the orange juice onto the concave side of a spoon and into the glass",
+        "Repeat the pouring process for the blue curacao and then the jagermeister",
+        "Should be layered"
+    ],
+    "garnish": "",
+    "type": "cocktail",
+    "glass": "Lowball",
+    "_id": {
+        "$oid": "52893df69c30b9120f000001"
+    }
+}
+
+{
+    "_id": {
+        "$oid": "5289545229c8146d10000001"
+    },
+    "name": "Lemon Gingerini",
+    "amount": [
+        "2 1/2",
+        "3/4",
+        "1/2oz."
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "oz."
+    ],
+    "ingredient": [
+        "Hendricks Gin",
+        "Lemon Juice",
+        "Ginger syrup (how to make below)"
+    ],
+    "note": [
+        "Before you begin - DO NOT put ginger ale in this drink. You need to either make ginger syrup, which is simple syrup (2 parts sugar dissolved into 1 part water) with a few chunks of ginger placed in it - use enough ginger to give a strong ginger flavour. Or just grate about a 3/4 inch chunk of ginger and squeeze the juice from that into the drink with about a tablespoon of sugar. I hope this doesn't prevent anyone from trying this drink, because it is very good!",
+        "Once you have everything: Add 0.5 oz of ginger syrup (or whatever you decided on), 0.75 oz of lemon juice, and 2.5-3 oz of gin (I prefer Hendricks) to a large glass.",
+        "Add 4-6 ice cubes and stir until cold.",
+        "Serve in martini glass.",
+        "Garnish with candied ginger and lemon peel.",
+        "Make sure to squeeze lemon peel over glass before serving - this releases oils that make the drink taste better.\nIf you don't believe me compare two drinks, one with and the other without lemon oil squeezed on top."
+    ],
+    "garnish": "Candied Ginger and lemon twist",
+    "type": "cocktail",
+    "glass": "Cocktail"
+}
+
+{
+    "_id": {
+        "$oid": "528bc6f45094c9b405000001"
+    },
+    "name": "Grand Deco",
+    "amount": [
+        "1 1/2",
+        "2",
+        "2",
+        "3"
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "oz.",
+        ""
+    ],
+    "ingredient": [
+        "Grand Marnier",
+        "cranberry juice",
+        "ginger ale or ginger beer.",
+        "Kumquats"
+    ],
+    "note": [
+        "Pour Grand Marnier into a tall glass filled with ice.",
+        "Add cranberry juice and ginger ale or ginger beer.",
+        "Garnish with sliced kumquats and a mint leaf."
+    ],
+    "garnish": " Mint leaf ",
+    "type": "cocktail",
+    "glass": "Highball"
+}
+
+{
+    "_id": {
+        "$oid": "528d0248d474736c0a000001"
+    },
+    "name": "Mojito (the Real deal)",
+    "amount": [
+        "3",
+        "10",
+        "1 1/2",
+        "2",
+        "1/2",
+        ""
+    ],
+    "amountType": [
+        "",
+        "",
+        "oz.",
+        "Tbls",
+        "oz.",
+        ""
+    ],
+    "ingredient": [
+        "lime slices",
+        "Mint leaves",
+        "White Rum",
+        "sugar",
+        "Carbonated Water (approx.)",
+        "ice"
+    ],
+    "note": [
+        "Place mint leaves into glass with 1 lime slice and crush with a muddler.",
+        "Add 2 more Lime slices and sugar to the glass and muddle once more.",
+        "Fill glass almost to the top with ice.",
+        "Add Rum and fill glass with Carbonated water. (approx. 1/2 cup)."
+    ],
+    "garnish": "Lime",
+    "type": "cocktail",
+    "glass": "Highball"
+}
+
+{
+    "name": "Merry Gentleman",
+    "amount": [
+        "1 1/2",
+        "1/2",
+        "2",
+        "2"
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "oz.",
+        "oz."
+    ],
+    "ingredient": [
+        "Crown Royal Whisky",
+        "lemon juice",
+        "Pomegranate juice",
+        "Ginger ale"
+    ],
+    "note": [
+        "Fill rocks glass with ice.",
+        "Add whisky, lemon juice, pomegranate juice.",
+        "Top with ginger ale.",
+        "Garnish with a mint leaf."
+    ],
+    "garnish": "Mint leaf",
+    "type": "cocktail",
+    "glass": "Lowball",
+    "_id": {
+        "$oid": "52a87a29172c3aee29000001"
+    }
+}
+
+{
+    "name": "Reindeer Cafe",
+    "amount": [
+        "1",
+        "1/2",
+        "4"
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "oz."
+    ],
+    "ingredient": [
+        "1 oz Kahlua Coffee Liqueur",
+        "1/2 oz cherry brandy",
+        "4 oz Hot brewed coffee"
+    ],
+    "note": [
+        "To a heat proof mug, add Kahlua and cherry brandy.",
+        "Top with coffee.",
+        "Garnish with a dollop of whipped cream. cherry and shaved chocolate."
+    ],
+    "garnish": "Whipped cream, Chocolate (Shaved) and a cherry",
+    "type": "cocktail",
+    "glass": "Highball",
+    "_id": {
+        "$oid": "52a87b55172c3aee29000002"
+    }
+}
+
+{
+    "name": "Cinnamon Cosmo",
+    "amount": [
+        "1 1/2",
+        "1/8",
+        "1",
+        "2",
+        "3"
+    ],
+    "amountType": [
+        "oz.",
+        "",
+        "oz.",
+        "oz.",
+        ""
+    ],
+    "ingredient": [
+        "Stolichnaya Vodka",
+        "Lemon",
+        "Cinnamon syrup (recipe found in cocktail list)",
+        "Cranberry juice",
+        "frozen Cranberries"
+    ],
+    "note": [
+        "Rim a cocktail glass with lemon juice and dip in sugar.",
+        "In a shaker filled with ice, add vodka, lemon juice, cinnamon syrup and cranberry juice.",
+        "Shake and strain into the cocktail glass and garnish with cranberries."
+    ],
+    "garnish": "cranberries (frozen) and sugar",
+    "type": "cocktail",
+    "glass": "Cocktail",
+    "_id": {
+        "$oid": "52a87cba172c3aee29000003"
+    }
+}
+
+{
+    "name": "Cinnamon Syrup",
+    "amount": [
+        "1",
+        "1",
+        "4"
+    ],
+    "amountType": [
+        "Cup",
+        "Cup",
+        ""
+    ],
+    "ingredient": [
+        "boiling water",
+        "sugar",
+        "cinnamon sticks"
+    ],
+    "note": [
+        "Mix sugar and cinnamon sticks to boiling water. ",
+        "Let cool.",
+        "Refrigerate, covered. Lasts 2 weeks."
+    ],
+    "garnish": "",
+    "type": "cocktail",
+    "glass": "",
+    "_id": {
+        "$oid": "52a87daa172c3aee29000004"
+    }
+}
+
+{
+    "name": "Forty Nights",
+    "amount": [
+        "1 1/2",
+        "1/2",
+        ""
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        ""
+    ],
+    "ingredient": [
+        "Forty Creek Cream Liquor",
+        "Peppermint Schnapps",
+        "hot chocolate (White or Dark)"
+    ],
+    "note": [
+        "In a heat proof mug, add ingredients in order.",
+        "Garnish with whipped cream and crushed candy canes."
+    ],
+    "garnish": "Whipped cream and crushed candy canes",
+    "type": "cocktail",
+    "glass": "",
+    "_id": {
+        "$oid": "52a87e88172c3aee29000005"
+    }
+}
+
+{
+    "name": "Blizzard Kiss",
+    "amount": [
+        "1 1/2",
+        "1/2",
+        "2"
+    ],
+    "amountType": [
+        "oz.",
+        "c.",
+        "oz."
+    ],
+    "ingredient": [
+        "Baileys",
+        "frozen strawberries",
+        "cream"
+    ],
+    "note": [
+        "In a shaker filled with ice, add all ingredients.",
+        "Shake and strain into a cocktail glass.",
+        "Garnish with a fresh sugar coated strawberry."
+    ],
+    "garnish": "Sugared strawberry",
+    "type": "cocktail",
+    "glass": "Cocktail",
+    "_id": {
+        "$oid": "52a87f3f172c3aee29000006"
+    }
+}
+
+{
+    "name": "Rum Smash",
+    "amount": [
+        "3",
+        "1",
+        "2",
+        "2"
+    ],
+    "amountType": [
+        "",
+        "oz.",
+        "oz.",
+        "oz."
+    ],
+    "ingredient": [
+        "lemon wedges",
+        "Simple syrup",
+        "Amber Rum",
+        "White Cranberry Juice Cocktail"
+    ],
+    "note": [
+        "In rocks glass add 3 lemon wedges and simple syrup.",
+        "Muddle",
+        "Fill the glass with ice and add Rum and Cranberry juice.",
+        "Garnish with mint sprig."
+    ],
+    "garnish": "Mint leaf",
+    "type": "cocktail",
+    "glass": "Lowball",
+    "_id": {
+        "$oid": "52a885c8172c3aee29000007"
+    }
+}
+
+{
+    "name": "Spiced Apple Cocktail",
+    "amount": [
+        "1 1/2",
+        "4"
+    ],
+    "amountType": [
+        "oz.",
+        "oz."
+    ],
+    "ingredient": [
+        "Spiced Rum",
+        "apple cider, chilled"
+    ],
+    "note": [
+        "Fill glass with ice.",
+        "Add spiced rum and top with chilled apple cider.",
+        "Garnish with apple slice,"
+    ],
+    "garnish": "Apple slice",
+    "type": "cocktail",
+    "glass": "Lowball",
+    "_id": {
+        "$oid": "52a886b7172c3aee29000008"
+    }
+}
+
+{
+    "name": "Whisky Sour (the Dark Hotel)",
+    "amount": [
+        "1 1/2",
+        "1",
+        "1",
+        "1"
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "oz.",
+        "Dashes"
+    ],
+    "ingredient": [
+        "whisky",
+        "freshly squeezed lemon juice",
+        "Simple syrup",
+        "Angostura Bitters (optional)"
+    ],
+    "note": [
+        "Fill shaker with ice.",
+        "Add whisky, lemon juice, simple syrup and bitters.",
+        "Shake!",
+        "Fill rocks glass with ice and strain mixture into glass."
+    ],
+    "garnish": "",
+    "type": "cocktail",
+    "glass": "Lowball",
+    "_id": {
+        "$oid": "52a887d6172c3aee29000009"
+    }
+}
+
+{
+    "name": "Kentucky Toddy",
+    "amount": [
+        "4",
+        "1",
+        "1",
+        "1/4",
+        "1/8",
+        "1"
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "tsp",
+        "tsp",
+        ""
+    ],
+    "ingredient": [
+        "Apple Cider",
+        "Bouron",
+        "freshly squeezed Lemon juice",
+        "ground ginger",
+        "ground cinnamon",
+        "cinnamon stick"
+    ],
+    "note": [
+        "Heat all ingredients and pour into a mug.",
+        "Garnish with a lemon slice or cinnamon stick"
+    ],
+    "garnish": "cinnamon stick",
+    "type": "cocktail",
+    "glass": "Lowball",
+    "_id": {
+        "$oid": "52a888ce172c3aee2900000a"
+    }
+}
+
+{
+    "name": "Tiramisu",
+    "amount": [
+        "6",
+        "1",
+        "1 1/4",
+        "1 3/4",
+        "2 - 12",
+        "1/2",
+        "1/4",
+        "1"
+    ],
+    "amountType": [
+        "Ounces",
+        "",
+        "c.",
+        "c.",
+        "oz.",
+        "c.",
+        "c.",
+        "Tbl"
+    ],
+    "ingredient": [
+        "egg yolks",
+        "sugar",
+        "mascarpone cheese",
+        "heavy whipping cream",
+        "packages Italian Lady fingers",
+        "cold espresso",
+        "coffee flavored Liquor (optional)",
+        "cocoa for dusting"
+    ],
+    "note": [
+        "Combine egg yolks and sugar in the top of a double boiler, over boiling water. Reduce heat to low, and cook for about 10 minutes, stirring constantly. This is your sabayon, remove from the heat and whip yolks until thick and lemon coloured.",
+        "Add Mascarpone to whipped yolks, beat until combined. \nIn a separate bowl, whip cream to stiff peaks. Gently fold the whipped cream in the mascarpone sabayon mixture and set aside.",
+        "Mix the cold espresso with the coffee liquor and dip the lady fingers into the mixture just long enough to get them wet, do not soak them!",
+        "Arrange the lady fingers in the bottom of a 8 inch square baking dish (or 6×9) \nSpoon half the mascarpone cream filling over the lady fingers.",
+        "Repeat process with another layer. \nRefrigerate 4 hours or overnight. \nDust with cocoa before serving"
+    ],
+    "garnish": "Cocoa",
+    "type": "food",
+    "glass": "",
+    "_id": {
+        "$oid": "52ac9fdb509e155d05000001"
+    }
+}
+
+{
+    "_id": {
+        "$oid": "5339aeeb40cf550200000001"
+    },
+    "name": "Moscow Mule",
+    "amount": [
+        "1/2",
+        "4",
+        "5"
+    ],
+    "amountType": [
+        "oz.",
+        "oz.",
+        "oz."
+    ],
+    "ingredient": [
+        "Lime Juice",
+        "Vodka",
+        "Ginger Beer"
+    ],
+    "note": [
+        "Squeeze lime juice into a Collins glass (or Moscow Mule mug) and drop in the spent shell. Add 2 or 3 ice cubes, then pour in the vodka and fill with cold ginger beer (not ginger ale, although what the hell). Serve with a stirring rod."
+    ],
+    "garnish": "Lime",
+    "type": "cocktail",
+    "glass": ""
+}
+
+
+
+
+
+
+
+
+
